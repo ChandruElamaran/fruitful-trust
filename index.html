@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fruitful Trust | Care for orphan children and elders</title>
+  <meta name="description"
+    content="Fruitful Trust gives orphan children a home and education, and elders a place of dignity and care.">
+  <!-- Fonts (needs internet; falls back to Georgia / Arial offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Nunito+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ===== Top navigation ===== -->
+  <header class="site-header">
+    <a href="#home" class="logo">Fruitful Trust</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#programs">Our care</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#videos">Videos</a>
+      <a href="#help">Help us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <!-- Put your best photo at images/hero.jpg -->
+      <img class="hero-img" src="images/hero.jpg" alt="Children and elders together at Fruitful Trust"
+        onerror="this.style.display='none'">
+      <div class="hero-text">
+        <h1>A home where the young are raised and the old are honoured.</h1>
+        <p>Fruitful Trust gives orphan children food, school and love, and gives elders a safe place to rest, laugh and
+          belong.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-main" href="#help">Donate today</a>
+          <a class="btn btn-light" href="#programs">See our work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Impact numbers (CHANGE to your real numbers) ===== -->
+    <section class="numbers">
+      <div><strong>60</strong> children in our care</div>
+      <div><strong>35</strong> elders living with us</div>
+      <div><strong>12</strong> years of service</div>
+      <div><strong>40</strong> volunteers</div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <h2>Who we are</h2>
+      <div class="two-col">
+        <p>Fruitful Trust began with one small room and a simple belief: nobody should grow up or grow old alone. Today
+          we run a children's home and an elders' home side by side, so the two generations learn from each other every
+          day.</p>
+        <p>Children read the newspaper aloud to grandparents. Elders tell stories and help with homework. Everything we
+          do is paid for by kind people like you, and every rupee goes to food, health, school fees and shelter.</p>
+      </div>
+    </section>
+
+    <!-- ===== Programs ===== -->
+    <section class="section tint" id="programs">
+      <h2>How we care</h2>
+      <div class="two-col cards">
+        <article class="card kids">
+          <h3>For orphan children</h3>
+          <ul>
+            <li>Safe home, clean beds and three meals a day</li>
+            <li>School admission, books, uniforms and tuition</li>
+            <li>Health check-ups and counselling</li>
+            <li>Sports, music and computer classes</li>
+          </ul>
+        </article>
+        <article class="card elders">
+          <h3>For elders</h3>
+          <ul>
+            <li>Comfortable rooms with nurse support</li>
+            <li>Nutritious meals and regular medical care</li>
+            <li>Yoga, prayer and storytelling circles</li>
+            <li>Visits from family, friends and volunteers</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Photo gallery ===== -->
+    <section class="section" id="gallery">
+      <h2>Life at Fruitful Trust</h2>
+      <p class="lead">Add your photos to the <code>images</code> folder using the file names below, or edit the names in
+        this file.</p>
+      <div class="gallery">
+        <figure><img src="images\1.jpeg" alt="Children studying together"
+            onerror="this.parentElement.classList.add('empty')">
+          <figcaption>Evening study time</figcaption>
+        </figure>
+        <figure><img src="images\4.jpeg" alt="Elders enjoying a morning walk"
+            onerror="this.parentElement.classList.add('empty')">
+          <figcaption>Morning walk</figcaption>
+        </figure>
+        <figure><img src="images\2.jpeg" alt="Festival celebration" onerror="this.parentElement.classList.add('empty')">
+          <figcaption>Festival day</figcaption>
+        </figure>
+
+
+
+      </div>
+    </section>
+
+    <!-- ===== Videos ===== -->
+    <section class="section tint" id="videos">
+      <h2>Watch our story</h2>
+      <div class="two-col">
+        <!-- Local video: put the file at videos/story1.mp4 -->
+        <figure class="video-box">
+          <video controls preload="metadata" poster="images/video1-poster.jpg">
+            <source src="videos\v1.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+          <figcaption>A day at the children's home</figcaption>
+        </figure>
+        <figure class="video-box">
+          <video controls preload="metadata" poster="images/video2-poster.jpg">
+            <source src="videos\v2.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+          <figcaption>Elders share their stories</figcaption>
+        </figure>
+      </div>
+      <!-- For a YouTube video, replace VIDEO_ID below and remove the comment marks:
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Fruitful Trust video" allowfullscreen></iframe>
+  -->
+    </section>
+
+    <!-- ===== Donate / volunteer ===== -->
+    <section class="section" id="help">
+      <h2>Help us keep the doors open</h2>
+      <div class="two-col">
+        <div>
+          <p>A gift of any size changes a life here. Here is what it can do:</p>
+          <ul class="gifts">
+            <li><strong>₹500</strong> feeds a child for a week</li>
+            <li><strong>₹1,500</strong> pays one child's school books for a year</li>
+            <li><strong>₹3,000</strong> covers an elder's monthly medicines</li>
+          </ul>
+          <p>You can also give your time: teach, cook, play music or simply sit and talk.</p>
+        </div>
+        <div class="card bank">
+          <h3>Bank details</h3>
+          <!-- CHANGE these to your real details -->
+          <p>Account name: Fruitful Trust<br>
+            Account number: XXXXXXXXXXXX<br>
+            Bank and branch: Your Bank, Your Branch<br>
+            IFSC: XXXX0000000<br>
+            UPI: fruitfultrust@upi</p>
+          <p class="small">Donations may be eligible for tax benefit under Section 80G. Registration no: ADD HERE.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section tint" id="contact">
+      <h2>Visit or write to us</h2>
+      <div class="two-col">
+        <div>
+          <p><strong>Address:</strong><br>Fruitful Trust, Your Street, Coimbatore, Tamil Nadu</p>
+          <p><strong>Phone:</strong> +91 99421 23856<br>
+            <strong>Email:</strong> hello@fruitfultrust.org
+          </p>
+          <p>Visiting hours: every day, 10 AM to 5 PM.</p>
+        </div>
+        <!-- This form opens the visitor's email app (no server needed) -->
+        <form id="contactForm" class="card">
+          <label for="name">Your name</label>
+          <input id="name" type="text" required>
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required></textarea>
+          <button class="btn btn-main" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Fruitful Trust. Caring for children and elders.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
